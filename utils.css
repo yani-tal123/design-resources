@@ -1,0 +1,50 @@
+@property --yellow {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #F5CF05;
+}
+
+@property --white {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #FAFAF9;
+}
+
+@property --black {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #1C1C1A;
+}
+
+
+.body-medium {
+  font-family: "Martian Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
