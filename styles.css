@@ -1,53 +1,32 @@
 body {
   background-color: var(--yellow);
   display: flex;
-  flex-direction: row;
-  padding: 30px;
-  gap: 30px;
   margin: 0;
   font-family: "Martian Mono", Arial, Helvetica, sans-serif;
-}
-
-header {
-  writing-mode: sideways-lr;
-  text-orientation: mixed;
-  color: var(--black);
-  height: 100vh;
-  display: flex;
-  justify-content: end;
-  font-weight: lighter;
-  position: sticky;
-  background-color: var(--yellow);
-  position: fixed;
-  z-index: 1;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  gap: 30px;
   width: 100%;
-  padding-left: 80px;
 }
 
 section {
-  width: 33%;
-  background-color: var(--white);
-  padding: 20px;
-  height: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  position: sticky;
+
+}
+
+.section-container {
+  background-color: var(--white);
+  height: fit-content;
 }
 
 .accordion {
   display: flex;
   gap: 10px;
   align-items: start;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 .accordion-text {

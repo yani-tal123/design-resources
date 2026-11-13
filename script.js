@@ -5,7 +5,10 @@ const elements = document.getElementById("elements");
 const other = document.getElementById("other");
 
 function generateHTML(section, header, dataSet) {
-  let html = `<h2>${header}</h2>`
+  let html = `
+  <div class="section-container">
+    <h2>${header}</h2>
+  `
   dataSet.forEach(subsection => {
     let linksHTML = "";
     subsection.linksList.forEach(linkData => {
@@ -23,10 +26,10 @@ function generateHTML(section, header, dataSet) {
         </div>
       </div>
     </div>
-  </div>
   `;
   });
 
+  html += "</div>"
   section.innerHTML = html;
 }
 
@@ -108,6 +111,3 @@ headers.forEach(header => {
     }
   });
 })
-
-// overflow-y: auto;
-// max-height: 100%

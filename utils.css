@@ -40,11 +40,278 @@ img {
 }
 
 p {
-  font-size: 14px;
   line-height: 150%;
 }
 
 h1 {
   margin: 0;
   padding: 0;
+}
+
+/* */
+
+@media (min-width: 480px) {
+  header {
+    writing-mode: sideways-lr;
+    text-orientation: mixed;
+    color: var(--black);
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    font-weight: lighter;
+    position: sticky;
+    background-color: var(--yellow);
+    position: fixed;
+    z-index: 1;
+  }
+
+  body {
+    flex-direction: row;
+  }
+}
+
+/* */
+
+@media (max-width: 479px) {
+
+  /* Mobile Small */
+  body {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  header {
+    color: var(--black);
+  }
+
+  main {
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  body {
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  header {
+    padding-top: 16px;
+  }
+
+  main {
+    gap: 16px;
+  }
+
+  .section-container {
+    padding: 10px;
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+  /* Mobile Large */
+  main {
+    flex-direction: column;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  body {
+    padding: 0 16px;
+    gap: 16px;
+  }
+
+  header {
+    padding: 16px 0;
+  }
+
+  main {
+    gap: 16px;
+    padding-left: 40px;
+  }
+
+  .section-container {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet */
+
+  main {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  body {
+    padding: 0 30px;
+    gap: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  main {
+    gap: 30px;
+    padding-left: 80px;
+  }
+
+  .section-container {
+    padding: 20px;
+    gap: 10px;
+  }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+  /* Desktop */
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  main {
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 80px;
+  }
+
+  section {
+    width: 33%;
+    height: 100vh;
+    /* percent relative to viewport height */
+    float: left;
+    overflow: scroll;
+  }
+
+  body {
+    overflow: hidden;
+    padding: 0 30px;
+    gap: 30px;
+  }
+
+  .section-container {
+    margin: 30px 0;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  /* Large Desktop */
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  main {
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 80px;
+  }
+
+  section {
+    width: 33%;
+    height: 100vh;
+    /* percent relative to viewport height */
+    float: left;
+    overflow: scroll;
+  }
+
+  body {
+    overflow: hidden;
+    padding: 0 30px;
+    gap: 30px;
+  }
+
+  .section-container {
+    margin: 30px 0;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  /* Extra Large */
+
 }
