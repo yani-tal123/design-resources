@@ -63,6 +63,9 @@ export const webData = [{
   linksList: [{
     name: "Form validation UX",
     link: "https://threadreaderapp.com/thread/1400388896136040454.html"
+  }, {
+    name: "Favicon Link",
+    link: "https://faviconbuilder.com/guides/how-to-add-favicon-in-html/"
   }]
 }, {
   name: "CSS",
@@ -158,8 +161,6 @@ export const webData = [{
     link: "https://www.briefz.biz/"
   }]
 }]
-
-
 
 export const elementsData = [{
   name: "Все сразу",
@@ -432,7 +433,7 @@ export const otherData = [{
     link: "https://motionographer.com/"
   }]
 }, {
-  name: "История искусства ",
+  name: "История искусства",
   linksList: [{
     name: "Архив Шенкара",
     link: "https://designarchive.shenkar.ac.il/items/118628"
@@ -442,6 +443,99 @@ export const otherData = [{
   }, {
     name: "Гугл Культура",
     link: "https://artsandculture.google.com/"
+  }]
+}, {
+  name: "Международные архивы (фото и пр)",
+  linksList: [{
+    name: "Wellcome Collection",
+    link: "https://wellcomecollection.org/"
+  }, {
+    name: "Internet Archive",
+    link: "https://archive.org"
+  }, {
+    name: "Wikicommons - медиа Википедии в открытом доступе",
+    link: "https://commons.wikimedia.org/wiki/Category:Images"
+  }, {
+    name: "Institution Smithsonian",
+    link: "openaccess/edu.si.www://https"
+  }, {
+    name: "Library of Congress - материалы касательно истории и полтики США",
+    link: "https://www.loc.gov/free-to-use/"
+  }, {
+    name: "Europeana - культурное наследие Европы (искусство, книги, фильмы, музыка)",
+    link: "https://www.europeana.eu/"
+  }, {
+    name: "Digital Public Library of America - культурное наследие США (фото, тексты, видео, музыка)",
+    link: "https://dp.la/"
+  }, {
+    name: "rijksmuseum",
+    link: "https://www.rijksmuseum.nl/en/collection"
+  }, {
+    name: "metmuseum",
+    link: "collection/art/org.metmuseum.www://https"
+  }, {
+    name: "New York Public Library Digital Collection",
+    link: "https://digitalcollections.nypl.org/"
+  }, {
+    name: "the British Library",
+    link: "https://www.flickr.com/photos/britishlibrary/albums"
+  }, {
+    name: "THE LIFE PICTURE COLLECTION - фотоархив журнала Life",
+    link: "https://www.life.com/life-picture-collection/"
+  }, {
+    name: "BibliOdyssey - метариалы конца 17 - начала 18 веков",
+    link: "/com.blogspot.bibliodyssey://http"
+  }, {
+    name: "NASA Digital collection",
+    link: "https://www.nasa.gov/mission_pages/hubble/digital-library/"
+  }, {
+    name: "the Public Domain Review",
+    link: "https://publicdomainreview.org/"
+  }, {
+    name: "The Clevland Museum of Art",
+    link: "https://www.clevelandart.org/art/collections"
+  }, {
+    name: "The Art of google books",
+    link: "https://theartofgooglebooks.tumblr.com/"
+  }, {
+    name: "Picryl - фотоархивы США в публичном доступе",
+    link: "https://picryl.com/"
+  }]
+}, {
+  name: "Израильские архивы (фото и пр)",
+  linksList: [{
+    name: "Архив пресс-службы правительства (журналистика и полиитика)",
+    link: "https://www.gov.il/he/departments/government-press-office/govil-landing-page"
+  }, {
+    name: "Национальная библиотека Израиля: еврейская пресса",
+    link: "https://www.nli.org.il/he/discover/newspapers/jpress"
+  }, {
+    name: "Национальная библиотека Израиля: коллекция постеров",
+    link: "https://www.nli.org.il/he/discover/posters"
+  }, {
+    name: "Национальная библиотека Израиля: фотографии",
+    link: "https://www.nli.org.il/he/discover/photos"
+  }, {
+    name: "История Израиля через семейные альбомы",
+    link: "http://www.israelalbum.org.il/"
+  }, {
+    name: "Энциклопедия об основателях Израиля",
+    link: "https://www.tidhar.tourolib.org/tidhar/view/19/5734"
+  }, {
+    name: "Битмуна - фотоархив визуальных источников, связанных с историей еврейского народа",
+    link: "http://www.bitmuna.com/"
+  }, {
+    name: "Виртуальная библиотека свитков Мертвого моря",
+    link: "https://www.deadseascrolls.org.il/"
+  }, {
+    name: "Израильский киноархив",
+    link: "https://jfc.org.il/"
+  }, {
+    name: "Фотоархив Мэтсонов - исторические фотографии Палестины 1898-1946",
+    link: "https://www.loc.gov/pictures/collection/matpc/"
+  }, {
+    name: "Архив древностей",
+    link: "https://www.iaa.org.il/"
   }]
 }]
 
