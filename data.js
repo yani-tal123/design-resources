@@ -388,7 +388,7 @@ export const elementsData = [{
 
 
 export const otherData = [{
-  name: "Общие сайты",
+  name: "Референсы",
   linksList: [{
     name: "Dribbble",
     link: "https://dribbble.com/"
@@ -401,9 +401,6 @@ export const otherData = [{
   }, {
     name: "Cari Institute Aesthetics",
     link: "https://cari.institute/aesthetics"
-  }, {
-    name: "Список известных графических дизайнеров",
-    link: "https://www.famousgraphicdesigners.org/"
   }]
 }, {
   name: "Персоналии",
@@ -422,6 +419,9 @@ export const otherData = [{
   }, {
     name: "Dutch Graphic Roots - нидерландские графические дизайнеры",
     link: "https://www.dutchgraphicroots.nl/"
+  }, {
+    name: "Список известных графических дизайнеров",
+    link: "https://www.famousgraphicdesigners.org/"
   }]
 }, {
   name: "Типография и книги",
@@ -448,7 +448,7 @@ export const otherData = [{
     link: "https://theartofgooglebooks.tumblr.com/"
   }]
 }, {
-  name: "Международные архивы (фото и пр)",
+  name: "Фотоархивы мир",
   linksList: [{
     name: "Гугл Культура",
     link: "https://artsandculture.google.com/"
@@ -535,7 +535,7 @@ export const otherData = [{
     link: "https://www.theguardian.com/artanddesign/gallery/2025/mar/06/give-it-a-polish-classic-film-posters-with-a-twist-in-pictures"
   }]
 }, {
-  name: "Израильские архивы (фото и пр)",
+  name: "Фотоархивы Израиль",
   linksList: [{
     name: "Архив пресс-службы правительства (журналистика и полиитика)",
     link: "https://www.gov.il/he/departments/government-press-office/govil-landing-page"
