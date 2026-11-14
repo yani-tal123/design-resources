@@ -33,6 +33,9 @@ export const webData = [{
   }, {
     name: "Mobbin",
     link: "https://mobbin.com/"
+  }, {
+    name: "Web Rewind - an interactive journey through 30 years of the web",
+    link: "https://www.web-rewind.com/"
   }]
 }, {
   name: "Методички",
@@ -398,55 +401,58 @@ export const otherData = [{
   }, {
     name: "Cari Institute Aesthetics",
     link: "https://cari.institute/aesthetics"
+  }, {
+    name: "Список известных графических дизайнеров",
+    link: "https://www.famousgraphicdesigners.org/"
   }]
 }, {
-  name: "Иллюстрация",
+  name: "Персоналии",
   linksList: [{
-    name: "Michel Craig Martin",
+    name: "Michel Craig Martin - иллюстратор",
     link: "https://www.michaelcraigmartin.co.uk/artworks/5-computer-portraits/"
-  }]
-}, {
-  name: "Академическое искусство ",
-  linksList: [{
-    name: "Aaron Douglas",
+  }, {
+    name: "Aaron Douglas - художник",
     link: "https://www.aarondouglas.org/"
   }, {
-    name: "David Gerstein",
+    name: "David Gerstein - художник",
     link: "https://davidgerstein.com/"
-  }]
-}, {
-  name: "Постеры ",
-  linksList: [{
-    name: "Saul Bass",
+  }, {
+    name: "Saul Bass - графический дизайнер",
     link: "https://saulbass.framer.website/"
   }, {
-    name: "Polish movie posters",
-    link: "https://www.theguardian.com/artanddesign/gallery/2025/mar/06/give-it-a-polish-classic-film-posters-with-a-twist-in-pictures"
-  }, {
-    name: "Fingaz Studio",
-    link: "https://brokenfingaz.com/"
+    name: "Dutch Graphic Roots - нидерландские графические дизайнеры",
+    link: "https://www.dutchgraphicroots.nl/"
   }]
 }, {
-  name: "Моушн",
+  name: "Типография и книги",
   linksList: [{
-    name: "Motiongrapher",
-    link: "https://motionographer.com/"
-  }]
-}, {
-  name: "История искусства",
-  linksList: [{
-    name: "Архив Шенкара",
-    link: "https://designarchive.shenkar.ac.il/items/118628"
+    name: "100 работ Лубалина",
+    link: "https://lubalin100.com/"
   }, {
-    name: "С лекции введение в виз.коммуникацию",
-    link: "https://padlet.com/liatlavi/padlet-mb6wrj9gu65fdomz"
+    name: "Книжный дизайн Тартакобера",
+    link: "https://madaf.art/magazine/tartakover-shelf"
   }, {
-    name: "Гугл Культура",
-    link: "https://artsandculture.google.com/"
+    name: "Журнал от-от-от (от алеф-алеф-алефа)",
+    link: "https://alefalefalef.co.il/ototot/"
+  }, {
+    name: "Бюро еврейской типографии - типография, каллиграфия и печать",
+    link: "https://yaronimus.wordpress.com/"
+  }, {
+    name: "Letterform Archive",
+    link: "https://letterformarchive.org/"
+  }, {
+    name: "Modernism101 - modernism book covers",
+    link: "https://www.modernism101.com/"
+  }, {
+    name: "The Art of Google Books",
+    link: "https://theartofgooglebooks.tumblr.com/"
   }]
 }, {
   name: "Международные архивы (фото и пр)",
   linksList: [{
+    name: "Гугл Культура",
+    link: "https://artsandculture.google.com/"
+  }, {
     name: "Wellcome Collection",
     link: "https://wellcomecollection.org/"
   }, {
@@ -457,15 +463,15 @@ export const otherData = [{
     link: "https://commons.wikimedia.org/wiki/Category:Images"
   }, {
     name: "Institution Smithsonian",
-    link: "openaccess/edu.si.www://https"
+    link: "https://www.si.edu/openaccess"
   }, {
-    name: "Library of Congress - материалы касательно истории и полтики США",
+    name: "Library of Congress - история и политика США",
     link: "https://www.loc.gov/free-to-use/"
   }, {
-    name: "Europeana - культурное наследие Европы (искусство, книги, фильмы, музыка)",
+    name: "Europeana - искусство, книги, фильмы, музыка Европы",
     link: "https://www.europeana.eu/"
   }, {
-    name: "Digital Public Library of America - культурное наследие США (фото, тексты, видео, музыка)",
+    name: "Digital Public Library of America - фото, тексты, видео, музыка США",
     link: "https://dp.la/"
   }, {
     name: "rijksmuseum",
@@ -484,7 +490,7 @@ export const otherData = [{
     link: "https://www.life.com/life-picture-collection/"
   }, {
     name: "BibliOdyssey - метариалы конца 17 - начала 18 веков",
-    link: "/com.blogspot.bibliodyssey://http"
+    link: "https://bibliodyssey.blogspot.com/"
   }, {
     name: "NASA Digital collection",
     link: "https://www.nasa.gov/mission_pages/hubble/digital-library/"
@@ -495,11 +501,38 @@ export const otherData = [{
     name: "The Clevland Museum of Art",
     link: "https://www.clevelandart.org/art/collections"
   }, {
-    name: "The Art of google books",
-    link: "https://theartofgooglebooks.tumblr.com/"
-  }, {
     name: "Picryl - фотоархивы США в публичном доступе",
     link: "https://picryl.com/"
+  }, {
+    name: "Архив МОМА",
+    link: "https://www.moma.org/interactives/moma_through_time/"
+  }, {
+    name: "Таймлайн история информации",
+    link: "https://www.historyofinformation.com/index.php?cat=24"
+  }, {
+    name: "Таймлайн-инфографика история графического дизайна",
+    link: "./infographic.jpg"
+  }, {
+    name: "Design is History - архив работ за всю историю дизайна",
+    link: "http://www.designishistory.com/"
+  }, {
+    name: "AIGA архив дизайна",
+    link: "https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/grid/relevance/asc/273/39/90"
+  }, {
+    name: "Readymag Stories - digital archive of prominent 20th-century designers",
+    link: "https://readymag.com/designstories/"
+  }, {
+    name: "Arabic Design Archive",
+    link: "https://arabicdesignarchive.com/"
+  }, {
+    name: "Monoskop - a wiki for arts and studies",
+    link: "https://monoskop.org/Monoskop"
+  }, {
+    name: "Cooper Hewitt Collections - historical and contemporary design",
+    link: "https://www.si.edu/collections/cooper-hewitt"
+  }, {
+    name: "Polish movie posters",
+    link: "https://www.theguardian.com/artanddesign/gallery/2025/mar/06/give-it-a-polish-classic-film-posters-with-a-twist-in-pictures"
   }]
 }, {
   name: "Израильские архивы (фото и пр)",
@@ -536,6 +569,45 @@ export const otherData = [{
   }, {
     name: "Архив древностей",
     link: "https://www.iaa.org.il/"
+  }, {
+    name: "Архив Шенкара",
+    link: "https://designarchive.shenkar.ac.il/items/118628"
+  }]
+}, {
+  name: "Журналы и студии",
+  linksList: [{
+    name: "Скан всех выпусков Вер Сакрум",
+    link: "https://anno.onb.ac.at/cgi-content/anno-plus?apm=0&aid=vsa&"
+  }, {
+    name: "Скан всех выпусков Де Стиль",
+    link: "https://sdrc.lib.uiowa.edu/dada/de_stijl/index.htm"
+  }, {
+    name: "Скан всех выпусков журнала Югенд",
+    link: "https://www.openculture.com/2026/09/download-hundreds-of-issues-of-jugend-germanys-pioneering-art-nouveau-magazine.html"
+  }, {
+    name: "Скан всех выпусков журнала Эмигрэ (1984 - 2005)",
+    link: "https://www.emigre.com/Magazine"
+  }, {
+    name: "Архив журнала Ms. (с 1972-го)",
+    link: "https://msmagazine.com/about/"
+  }, {
+    name: "Журнал Design Observer",
+    link: "https://designobserver.com/channels/arts-culture/"
+  }, {
+    name: "Print Magazine",
+    link: "https://www.printmag.com/"
+  }, {
+    name: "Sabukaru Magazine - international and Japanese art, fashion, and music",
+    link: "https://sabukaru.online/articles/category/Culture"
+  }, {
+    name: "Fingaz Studio - painting, muralism, sculpture, installation, animation and printmaking",
+    link: "https://brokenfingaz.com/"
+  }, {
+    name: "Motiongrapher - моушн дизайн",
+    link: "https://motionographer.com/"
+  }, {
+    name: "AIGA Eye of Design",
+    link: "https://eyeondesign.aiga.org/"
   }]
 }]
 
