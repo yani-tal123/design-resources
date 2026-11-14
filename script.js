@@ -3,6 +3,22 @@ import { webData, elementsData, otherData } from "./data.js";
 const web = document.getElementById("web");
 const elements = document.getElementById("elements");
 const other = document.getElementById("other");
+const heading = document.querySelector("h1");
+
+let linkCount = 0;
+let allData = [webData, elementsData, otherData]
+
+allData.forEach(data => {
+  data.forEach(subsection => {
+    subsection.linksList.forEach(link => {
+      linkCount++;
+    })
+  })
+})
+
+heading.textContent = `Дизайн ресурсы (${linkCount})`
+
+
 
 function generateHTML(section, header, dataSet) {
   let html = `
