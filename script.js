@@ -13,7 +13,12 @@ function generateHTML(section, header, dataSet) {
     let linksHTML = "";
     subsection.linksList.forEach(linkData => {
       linksHTML += `
-    <p><a href="${linkData.link}" target="_blank">${linkData.name}</a></p>
+      <div class="link-container">
+        <div class="img-container">  
+          <img src='http://www.google.com/s2/favicons?domain=${linkData.link}' />
+        </div>
+          <p><a href="${linkData.link}" target="_blank">${linkData.name}</a></p>
+      </div>    
     `;
     })
     html += `

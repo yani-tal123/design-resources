@@ -52,12 +52,32 @@ img:hover {
   display: none;
 }
 
-.closed {}
-
 .open {
   display: block;
 }
 
 .open.accordion-links {
   display: initial;
+}
+
+.link-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: start;
+  padding: 8px 0;
+}
+
+.accordion-links {
+  margin-top: 20px;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.img-container {
+  width: 20px;
+  height: 20px;
 }
