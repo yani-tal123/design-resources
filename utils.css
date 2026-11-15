@@ -83,10 +83,16 @@ h1 {
 
   header {
     color: var(--black);
+    position: fixed;
+    background-color: var(--yellow);
+    width: 100%;
+    padding-bottom: 16px;
   }
 
   main {
     padding-left: 0;
+    padding-top: 60px;
+    padding-bottom: 16px;
     flex-direction: column;
   }
 
