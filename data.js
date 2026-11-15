@@ -1,6 +1,9 @@
 export const webData = [{
   name: "Референсы",
   linksList: [{
+    name: "Internet Archive",
+    link: "https://archive.org/"
+  }, {
     name: "Readymag",
     link: "https://readymag.com/examples"
   }, {
@@ -448,71 +451,86 @@ export const otherData = [{
     link: "https://theartofgooglebooks.tumblr.com/"
   }]
 }, {
-  name: "Фотоархивы мир",
+  name: "Архивы общее",
   linksList: [{
-    name: "Гугл Культура",
-    link: "https://artsandculture.google.com/"
-  }, {
-    name: "Wellcome Collection",
-    link: "https://wellcomecollection.org/"
-  }, {
-    name: "Internet Archive",
-    link: "https://archive.org"
-  }, {
     name: "Wikicommons - медиа Википедии в открытом доступе",
     link: "https://commons.wikimedia.org/wiki/Category:Images"
   }, {
     name: "Institution Smithsonian",
     link: "https://www.si.edu/openaccess"
   }, {
-    name: "Library of Congress - история и политика США",
-    link: "https://www.loc.gov/free-to-use/"
-  }, {
     name: "Europeana - искусство, книги, фильмы, музыка Европы",
     link: "https://www.europeana.eu/"
   }, {
-    name: "Digital Public Library of America - фото, тексты, видео, музыка США",
-    link: "https://dp.la/"
+    name: "the Public Domain Review",
+    link: "https://publicdomainreview.org/"
+  }, {
+    name: "Таймлайн история информации",
+    link: "https://www.historyofinformation.com/index.php?cat=24"
+  }, {
+    name: "Picryl - архивы США в публичном доступе",
+    link: "https://picryl.com/"
+  }]
+}, {
+  name: "Архивы музеи и искусство",
+  linksList: [{
+    name: "Гугл Культура",
+    link: "https://artsandculture.google.com/"
   }, {
     name: "rijksmuseum",
     link: "https://www.rijksmuseum.nl/en/collection"
   }, {
-    name: "metmuseum",
-    link: "collection/art/org.metmuseum.www://https"
+    name: "Metropolitan Museum",
+    link: "https://www.metmuseum.org/art/collection"
   }, {
+    name: "The Cleveland Museum of Art",
+    link: "https://www.clevelandart.org/art/collection/search"
+  }, {
+    name: "Архив МОМА",
+    link: "https://www.moma.org/interactives/moma_through_time/"
+  }, {
+    name: "Таймлайн-инфографика история графического дизайна",
+    link: "https://yani-tal123.github.io/design-resources/infographic.jpg"
+  }, {
+    name: "Wellcome Collection - архив музея здоровья",
+    link: "https://wellcomecollection.org/"
+  }, {
+    name: "Monoskop - a wiki for arts and studies",
+    link: "https://monoskop.org/Monoskop"
+  }]
+}, {
+  name: "Архивы история, политика, документы",
+  linksList: [{
+    name: "Library of Congress - история и политика США",
+    link: "https://www.loc.gov/free-to-use/"
+  }, {
+    name: "Digital Public Library of America - фото, тексты, видео, музыка США",
+    link: "https://dp.la/"
+  }]
+}, {
+  name: "Архивы библиотеки",
+  linksList: [{
     name: "New York Public Library Digital Collection",
     link: "https://digitalcollections.nypl.org/"
   }, {
     name: "the British Library",
     link: "https://www.flickr.com/photos/britishlibrary/albums"
   }, {
+    name: "BibliOdyssey - метариалы конца 17 - начала 18 веков",
+    link: "https://bibliodyssey.blogspot.com/"
+  }]
+}, {
+  name: "Архивы фото",
+  linksList: [{
     name: "THE LIFE PICTURE COLLECTION - фотоархив журнала Life",
     link: "https://www.life.com/life-picture-collection/"
   }, {
-    name: "BibliOdyssey - метариалы конца 17 - начала 18 веков",
-    link: "https://bibliodyssey.blogspot.com/"
-  }, {
     name: "NASA Digital collection",
     link: "https://www.nasa.gov/mission_pages/hubble/digital-library/"
-  }, {
-    name: "the Public Domain Review",
-    link: "https://publicdomainreview.org/"
-  }, {
-    name: "The Clevland Museum of Art",
-    link: "https://www.clevelandart.org/art/collections"
-  }, {
-    name: "Picryl - фотоархивы США в публичном доступе",
-    link: "https://picryl.com/"
-  }, {
-    name: "Архив МОМА",
-    link: "https://www.moma.org/interactives/moma_through_time/"
-  }, {
-    name: "Таймлайн история информации",
-    link: "https://www.historyofinformation.com/index.php?cat=24"
-  }, {
-    name: "Таймлайн-инфографика история графического дизайна",
-    link: "./infographic.jpg"
-  }, {
+  }]
+}, {
+  name: "Архивы дизайн",
+  linksList: [{
     name: "Design is History - архив работ за всю историю дизайна",
     link: "http://www.designishistory.com/"
   }, {
@@ -525,9 +543,6 @@ export const otherData = [{
     name: "Arabic Design Archive",
     link: "https://arabicdesignarchive.com/"
   }, {
-    name: "Monoskop - a wiki for arts and studies",
-    link: "https://monoskop.org/Monoskop"
-  }, {
     name: "Cooper Hewitt Collections - historical and contemporary design",
     link: "https://www.si.edu/collections/cooper-hewitt"
   }, {
@@ -535,7 +550,7 @@ export const otherData = [{
     link: "https://www.theguardian.com/artanddesign/gallery/2025/mar/06/give-it-a-polish-classic-film-posters-with-a-twist-in-pictures"
   }]
 }, {
-  name: "Фотоархивы Израиль",
+  name: "Архивы Израиль",
   linksList: [{
     name: "Архив пресс-службы правительства (журналистика и полиитика)",
     link: "https://www.gov.il/he/departments/government-press-office/govil-landing-page"
@@ -619,8 +634,10 @@ export const otherData = [{
 */
 
 /*
+, {
   name: "",
   linksList: [{
     
   }]
+}
 */
