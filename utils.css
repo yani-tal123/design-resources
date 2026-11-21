@@ -102,6 +102,7 @@ h1 {
 
   h1 {
     font-size: 22px;
+    width: fit-content;
   }
 
   h2 {
@@ -123,6 +124,9 @@ h1 {
 
   header {
     padding-top: 16px;
+    gap: 0;
+    justify-content: space-between;
+    width: calc(100% - 32px);
   }
 
   main {
@@ -132,6 +136,11 @@ h1 {
   .section-container {
     padding: 10px;
     padding-top: 0;
+  }
+
+  #icon-big {
+    width: 28px;
+    height: 28px;
   }
 }
 
@@ -182,6 +191,12 @@ h1 {
     padding: 10px;
     padding-top: 0;
   }
+
+  #icon-big {
+    width: 26px;
+    height: 26px;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -217,6 +232,10 @@ h1 {
     gap: 10px;
   }
 
+  #icon-big {
+    width: 38px;
+    height: 38px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1199px) {
@@ -267,6 +286,11 @@ h1 {
 
   header {
     padding: 30px 0;
+  }
+
+  #icon-big {
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -319,10 +343,9 @@ h1 {
   header {
     padding: 30px 0;
   }
-}
 
-@media (min-width: 1440px) {
-
-  /* Extra Large */
-
+  #icon-big {
+    width: 38px;
+    height: 38px;
+  }
 }

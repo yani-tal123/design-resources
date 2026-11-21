@@ -1,8 +1,16 @@
 body {
-  background-color: var(--yellow);
   display: flex;
   margin: 0;
   font-family: "Martian Mono", Arial, Helvetica, sans-serif;
+}
+
+#body-main {
+  background-color: var(--yellow);
+}
+
+#body-search {
+  background-color: var(--black);
+  color: var(--white);
 }
 
 main {
@@ -79,4 +87,16 @@ img {
 .img-container {
   width: 20px;
   height: 20px;
+}
+
+/*--------------*/
+
+#icon-big {
+  width: 38px;
+  height: 38px;
+}
+
+header {
+  display: flex;
+  gap: 30px;
 }
