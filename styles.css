@@ -1,16 +1,8 @@
 body {
   display: flex;
   margin: 0;
-  font-family: "Martian Mono", Arial, Helvetica, sans-serif;
-}
-
-#body-main {
   background-color: var(--yellow);
-}
-
-#body-search {
-  background-color: var(--black);
-  color: var(--white);
+  font-family: "Martian Mono", Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -88,8 +80,6 @@ img {
   width: 20px;
   height: 20px;
 }
-
-/*--------------*/
 
 #icon-big {
   width: 38px;
