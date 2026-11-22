@@ -171,7 +171,7 @@ export const webData = [{
 export const elementsData = [{
   name: "Все сразу",
   linksList: [{
-    name: "Free design tools directoryу",
+    name: "Free design tools directorу",
     link: "https://freedesigntools.com/"
   }]
 }, {

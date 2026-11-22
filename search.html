@@ -18,25 +18,49 @@
 
 <body>
   <header>
-    <div id="search-container">
-      <img src="search-yellow.svg">
-      <div id="search-field">
-        <input placeholder="Ваш запрос">
-        <button>X</button>
+    <div id="outer-search-container">
+      <a href="./index.html" id="search-link"><img id="back-icon" src="back-icon.svg"></a>
+      <div id="search-container">
+        <img id="icon-big" src="search-yellow.svg">
+        <div id="search-field">
+          <input placeholder="Ваш запрос">
+          <button id="cancel-btn">X</button>
+        </div>
       </div>
     </div>
 
     <div id="heading">
-      <h1>Дизайн ресурсы</h1>
-      <p><a href="./index.html">Вернуться</a></p>
+      <h1>Поиск</h1>
     </div>
 
   </header>
   <main>
-    test
+    <h2 id="h2-search">9 результатов</h2>
+    <div id="results-sections">
+      <div class="section-container">
+        <h2>${header}</h2>
+        <div class="link-container">
+          <div class="img-container">
+            <img src='http://www.google.com/s2/favicons?domain=${linkData.link}' />
+          </div>
+          <p><a href="${linkData.link}" target="_blank">${linkData.name}</a></p>
+        </div>
+      </div>
+      <div class="accordion">
+        <img src="list-icon-closed.svg" id="${header}${subsection.name}" class="closed">
+        <div class="accordion-text">
+          <h3 id="${header}${subsection.name}" class="closed">${subsection.name}</h3>
+          <div class="accordion-links closed" id="${header}${subsection.name}">
+            ${linksHTML}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="reults-links">
+
+    </div>
   </main>
-  <script src="script.js" type="module"></script>
-  <script src="script.js" type="module"></script>
+  <script src="search.js" type="module"></script>
 </body>
 
 </html>

@@ -39,7 +39,7 @@ function generateHTML(section, header, dataSet) {
     })
     html += `
   <div class="accordion">
-      <img src="list-icon-closed.svg" id="${header}${subsection.name}" class="closed">
+      <img src="list-icon-closed.svg" id="${header}${subsection.name}" class="closed arrow">
       <div class="accordion-text">
         <h3 id="${header}${subsection.name}" class="closed">${subsection.name}</h3>
         <div class="accordion-links closed" id="${header}${subsection.name}">
@@ -61,14 +61,14 @@ generateHTML(other, "Другое", otherData);
 //
 
 const accordionLinks = document.querySelectorAll(".accordion-links");
-const images = document.querySelectorAll("img");
+const images = document.querySelectorAll(".arrow");
 const headers = document.querySelectorAll("h3");
 
 images.forEach(image => {
   image.addEventListener("click", () => {
     const targetId = image.id;
 
-    if (image.classList.value === "open") {
+    if (image.classList.value === ("arrow open")) {
       image.classList.remove("open");
       image.classList.add("closed");
       image.src = "list-icon-closed.svg"
