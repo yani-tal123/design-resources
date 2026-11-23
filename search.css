@@ -71,19 +71,24 @@ body {
   color: var(--white);
   padding: 0 30px;
   gap: 30px;
+  flex-direction: row;
 }
 
 header {
   width: 50%;
   padding: 30px 0;
+  height: fit-content;
 }
 
 main {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 36px 0;
+  height: 100vh;
+  padding: 0;
   gap: 16px;
+  float: left;
+  overflow: scroll;
 }
 
 #outer-search-container {
@@ -152,7 +157,7 @@ input:focus {
   writing-mode: sideways-lr;
   text-orientation: mixed;
   color: var(--yellow);
-  height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: end;
   font-weight: lighter;
@@ -166,10 +171,18 @@ input:focus {
 
 #h2-search {
   margin: 0;
+  padding-top: 36px;
+}
+
+#results-sections {
+  padding-bottom: 36px;
 }
 
 /* ------ */
 
+/* 1200 and bigger - 1024+ - 768+ - 480+ - 368+ - 367 and smaller */
+
+/* ------ */
 section {
   display: flex;
   flex-direction: column;
@@ -240,6 +253,72 @@ img {
   height: 20px;
 }
 
-body {
-  flex-direction: row;
+/* ------ */
+
+@media (max-width: 767px) {
+  body {
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    height: calc(100vh - 36px);
+  }
+
+  header,
+  main {
+    width: auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  main {
+    padding-left: 36px;
+  }
+
+  #h2-search {
+    padding-top: 14px;
+  }
+
+  #results-section {
+    width: auto;
+    height: fit-content;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 368px) {
+  #heading {
+    writing-mode: horizontal-tb;
+    text-orientation: initial;
+    color: var(--yellow);
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+    font-weight: lighter;
+    align-items: start;
+    position: sticky;
+    position: initial;
+    z-index: 1;
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+  main {
+    padding-left: 0;
+  }
 }

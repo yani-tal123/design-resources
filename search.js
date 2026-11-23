@@ -78,6 +78,3 @@ cancelBtn.addEventListener("click", () => {
   resultsContainer.innerHTML = "<p></p>";
   searchHeader.textContent = ""
 });
-
-//
-
