@@ -82,13 +82,16 @@ main {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 30px 0;
+  padding: 36px 0;
+  gap: 16px;
 }
 
 #outer-search-container {
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -125,7 +128,6 @@ input:focus {
   outline: none;
   width: 100%;
   font-family: inherit;
-  color: var(--white);
 }
 
 ::placeholder {
@@ -138,6 +140,12 @@ input:focus {
   border: none;
   color: var(--yellow);
   font-size: ;
+}
+
+#cancel-btn:hover {
+  background-color: var(--yellow);
+  font-weight: bold;
+  color: var(--black);
 }
 
 #heading {
@@ -168,7 +176,6 @@ section {
 }
 
 .section-container {
-  background-color: var(--white);
   height: fit-content;
 }
 
@@ -190,6 +197,7 @@ section {
 a:hover {
   background-color: var(--white);
   font-weight: bold;
+  color: var(--black);
 }
 
 h3:hover,
